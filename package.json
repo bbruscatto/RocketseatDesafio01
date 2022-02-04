@@ -6,12 +6,15 @@
   "scripts": {
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "start": "node your-script.js"
   },
   "dependencies": {
+    "module_name": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-icons": "^4.2.0"
+    "react-icons": "^4.2.0",
+    "your-script": "^0.0.5"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
@@ -22,6 +25,7 @@
     "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
+    "@types/node": "^17.0.14",
     "@types/react-dom": "^17.0.0",
     "babel-loader": "^8.2.2",
     "babel-preset-react-app": "^10.0.0",
